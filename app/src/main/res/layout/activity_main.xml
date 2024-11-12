@@ -13,9 +13,61 @@
         android:layout_height="wrap_content"
         android:text="@string/check_address_book"
         android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/lastNameET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Фамилия"
+        app:layout_constraintTop_toBottomOf="@+id/firstNameET"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <EditText
+        android:id="@+id/firstNameET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Имя"
+        app:layout_constraintTop_toBottomOf="@+id/main_header_text"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/addressET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Адрес"
+        app:layout_constraintTop_toBottomOf="@+id/lastNameET"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/phoneET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Телефон"
+        app:layout_constraintTop_toBottomOf="@+id/addressET"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/saveB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Сохранить"
+        app:layout_constraintBottom_toTopOf="@+id/lvAB"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/phoneET"
+        tools:ignore="MissingConstraints" />
+
+    <ListView
+        android:id="@+id/lvAB"
+        android:layout_width="402dp"
+        android:layout_height="450dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="10dp" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
