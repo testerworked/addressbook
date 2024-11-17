@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">AddressBook</string>
     <string name="check_address_book">Адресная книга</string>
+    <string name="address_et">Адрес</string>
+    <string name="last_name_et">Фамилия</string>
+    <string name="first_name_et">Имя</string>
+    <string name="phone_et">Телефон</string>
+    <string name="save_b">Сохранить</string>
 </resources>

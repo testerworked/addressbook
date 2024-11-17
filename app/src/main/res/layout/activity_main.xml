@@ -21,7 +21,7 @@
         android:id="@+id/lastNameET"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Фамилия"
+        android:hint="@string/last_name_et"
         app:layout_constraintTop_toBottomOf="@+id/firstNameET"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="0dp" />
@@ -30,7 +30,7 @@
         android:id="@+id/firstNameET"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Имя"
+        android:hint="@string/first_name_et"
         app:layout_constraintTop_toBottomOf="@+id/main_header_text"
         tools:ignore="MissingConstraints" />
 
@@ -38,7 +38,7 @@
         android:id="@+id/addressET"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Адрес"
+        android:hint="@string/address_et"
         app:layout_constraintTop_toBottomOf="@+id/lastNameET"
         tools:ignore="MissingConstraints" />
 
@@ -46,7 +46,7 @@
         android:id="@+id/phoneET"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Телефон"
+        android:hint="@string/phone_et"
         app:layout_constraintTop_toBottomOf="@+id/addressET"
         tools:ignore="MissingConstraints" />
 
@@ -54,7 +54,7 @@
         android:id="@+id/saveB"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Сохранить"
+        android:text="@string/save_b"
         app:layout_constraintBottom_toTopOf="@+id/lvAB"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
