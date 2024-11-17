@@ -1,4 +1,4 @@
 <resources>
     <string name="app_name">AddressBook</string>
-    <string name="check_address_book">Address Book</string>
+    <string name="check_address_book">Адресная книга</string>
 </resources>
